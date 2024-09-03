@@ -1,0 +1,29 @@
+.sidebar {
+    width: 200px;
+    background-color: #324960;
+    color: #fff;
+    height: 100vh;
+  }
+  
+  .logo {
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 20px 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+  }
+  

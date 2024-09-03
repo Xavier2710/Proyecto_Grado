@@ -1,0 +1,12 @@
+.main-container {
+    display: flex;
+  }
+  
+  app-sidebar {
+    flex: 0 0 200px;
+  }
+  
+  app-dashboard {
+    flex: 1;
+  }
+  

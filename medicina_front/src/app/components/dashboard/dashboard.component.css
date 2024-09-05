@@ -6,6 +6,9 @@
   .stats {
     display: flex;
     justify-content: space-between;
+    border: 1px solid #ccc; /* Agrega el borde */
+    background-color: #e0e0e0; /* Agrega el fondo */
+    padding: 10px; /* Ajusta el relleno si es necesario */
   }
   
   .stat-card {

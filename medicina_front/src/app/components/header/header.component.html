@@ -1,16 +1,21 @@
-<!-- <header>
-    <input type="text" placeholder="Search for..." class="search-bar">
-    <div class="user-info">
-      <span>LOGIN</span>
-      <img src="path-to-user-image.jpg" alt="User Image" class="user-avatar">
-    </div>
-</header> -->
-  
-<nav class="navbar" style="background-color: #681ff1;">
-  <div class="container-fluid">
-    <form class="d-flex" role="search">
-      <input  class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Buscar">
-      <button class="btn btn-outline-success" style="color: black;" type="submit">Buscar</button>
+<nav class="navbar" >
+  <div class="container-fluid" style="background-color:white; ">
+    <a class="navbar-brand" style="color: black">
+      <img src="../../../assets/images/medicina2.png" alt="Logo"
+        style="height: 40px; width: 40px; object-fit: contain; margin-right: 10px;">
+      <strong>Dashboard ABP</strong>
+    </a>
+    <form class="d-flex" role="buscar">
+      <input class="form-control me-2" type="buscar" placeholder="Buscar..." aria-label="buscar">
+      <button class="btn btn-outline-success" style="background-color: white; color: black;" type="submit">Buscar</button>
     </form>
-  </div>  
+  </div>
+
+  <div class="sidebar-container">
+    <app-sidebar></app-sidebar>
+  </div>
+
+  <div class="dashboard-container" >
+    <app-dashboard></app-dashboard>
+  </div>
 </nav>

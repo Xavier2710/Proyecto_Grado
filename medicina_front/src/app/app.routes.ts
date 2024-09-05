@@ -1,7 +1,8 @@
 import { Routes } from '@angular/router';
-import { CuestionarioComponent } from './interfaces/cuestionario/cuestionario.component';
+import { LoginComponent } from './components/login/login.component';
+import { HeaderComponent } from './components/header/header.component';
 
 export const routes: Routes = [
-
-    {path: "cuestionario", component: CuestionarioComponent}
+    {path: '', component: LoginComponent},
+    {path: "header", component: HeaderComponent}
 ];

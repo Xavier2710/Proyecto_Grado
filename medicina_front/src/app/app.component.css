@@ -1,12 +1,15 @@
-.main-container {
-    display: flex;
-  }
-  
-  app-sidebar {
-    flex: 0 0 200px;
-  }
-  
-  app-dashboard {
-    flex: 1;
-  }
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr; /* Ajusta los valores según tu preferencia */
+}
+
+.sidebar {
+  grid-column: 1;
+  background-color: #f0f0f0; /* Color de fondo del sidebar */
+}
+
+.dashboard {
+  grid-column: 1;
+  padding: 20px; /* Añade padding para espaciado */
+}
   

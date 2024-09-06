@@ -27,6 +27,4 @@ header {
 
 .dashboard-container {
   flex: 1 0 auto;
-  height: 100%;
-  padding: -50%;
 }
